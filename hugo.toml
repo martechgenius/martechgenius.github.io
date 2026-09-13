@@ -23,3 +23,8 @@ theme = 'PaperMod'
   name = 'Strumenti Consigliati'
   url = '/categories/strumenti/'
   weight = 20
+
+[[menu.main]]
+  name = 'Disclaimer'
+  url = '/disclaimer-affiliazione/'
+  weight = 30
