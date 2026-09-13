@@ -2,3 +2,24 @@ baseURL = 'https://martechgenius.github.io/'
 languageCode = 'it-it'
 title = 'MarTech Genius'
 theme = 'PaperMod'
+
+[params]
+  env = 'production'
+  title = 'MarTech Genius'
+  description = 'Guide, recensioni e strumenti di Marketing Technology'
+  defaultTheme = 'auto'
+  showToc = true
+
+  [params.homeInfoParams]
+    Title = 'Benvenuto su MarTech Genius 👋'
+    Content = 'Analisi approfondite dei migliori software e strumenti per il digital marketing.'
+
+[[menu.main]]
+  name = 'Articoli'
+  url = '/posts/'
+  weight = 10
+
+[[menu.main]]
+  name = 'Strumenti Consigliati'
+  url = '/categories/strumenti/'
+  weight = 20
