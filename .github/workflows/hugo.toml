@@ -1,0 +1,4 @@
+baseURL = 'https://martechgenius.github.io/'
+languageCode = 'it-it'
+title = 'MarTech Genius'
+theme = 'PaperMod'
