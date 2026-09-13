@@ -1,0 +1,56 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{- if .Params.ShowBreadCrumbs }}
+    {{- partial "breadcrumbs.html" . }}
+    {{- end }}
+    <h1 class="post-title entry-hint-parent">
+      {{ .Title }}
+      {{- if .Draft }}
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path d="M160-120v-170l527-526q12-12 27-18t30-6q15 0 30 6t26 18l47 47q12 12 18 27.5t6 30.5q0 15-6 30t-18 27L330-120H160Zm80-80h56l393-392-28-29-28-28-393 392v57Zm560-503-57-57 57 57Zm-139 26 27 27-28-29 1 2Z"/>
+        </svg>
+      </span>
+      {{- end }}
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+      {{ .Description }}
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-meta">
+      {{- partial "post_meta.html" . }}
+    </div>
+    {{- end }}
+  </header>
+
+  <!-- AVVISO AUTOMATICO AFFILIAZIONE -->
+  <blockquote style="background-color: var(--code-bg); padding: 12px 16px; border-left: 4px solid #f39c12; margin-bottom: 20px;">
+    ⚠️ <em><strong>Trasparenza Affiliata:</strong> Questo articolo contiene link di affiliazione. Se acquisti un servizio tramite questi link, MarTech Genius potrebbe ricevere una commissione senza alcun costo aggiuntivo per te. Per maggiori informazioni, consulta il nostro <a href="/disclaimer-affiliazione/">Disclaimer Completo</a>.</em>
+  </blockquote>
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content }}
+    {{- else }}
+    {{ .Content }}
+    {{- end }}
+  </div>
+  {{- end }}
+
+  <footer class="post-footer">
+    {{- if .Params.tags }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms "tags") }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </footer>
+</article>
+
+{{- end }}
