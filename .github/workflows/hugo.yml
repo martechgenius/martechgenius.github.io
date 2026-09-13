@@ -24,6 +24,7 @@ jobs:
 
       - name: Download PaperMod Theme
         run: |
+          rm -rf themes/PaperMod
           mkdir -p themes
           git clone https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod --depth=1
 
