@@ -28,3 +28,8 @@ theme = 'PaperMod'
   name = 'Disclaimer'
   url = '/disclaimer-affiliazione/'
   weight = 30
+
+[[menu.main]]
+  name = 'Privacy Policy'
+  url = '/privacy-policy/'
+  weight = 40
