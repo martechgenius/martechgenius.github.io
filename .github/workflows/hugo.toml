@@ -1,4 +1,4 @@
 baseURL = 'https://martechgenius.github.io/'
 languageCode = 'it-it'
-title = 'Il Mio Nuovo Sito'
+title = 'MarTech Genius'
 theme = 'PaperMod'
