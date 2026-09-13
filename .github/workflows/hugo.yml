@@ -23,10 +23,9 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Hugo
-        uses: configure-hugo/hugo-setup@v3
+        uses: hugo-setup/hugo-setup@v1
         with:
           hugo-version: 'latest'
-          extended: true
 
       - name: Download PaperMod Theme
         run: |
