@@ -37,22 +37,17 @@ googleAnalytics = "G-S05879Z1TC"
 
   # --- HOMEPAGE RICCA E STRUTTURATA ---
   [params.homeInfoParams]
-    Title = "Semplifica il tuo Marketing con la Tecnologia 🚀"
-    Content = """
-    Benvenuto su **MarTech Genius**, la tua risorsa indipendente per orientarti nel mondo del Digital Marketing e delle Automazioni. 
-
-    Analizziamo, testiamo e mettiamo a confronto i migliori software (CRM, Email Marketing, Workflows) per aiutarti a far crescere il tuo business senza sprechi di tempo o budget.
-
-    ⚡ **Analisi imparziali** | 🛠️ **Test pratici** | 📊 **Guide passo-passo**
-    """
-    
-    [[params.homeInfoParams.buttons]]
-      name = "Esplora gli Articoli 📚"
-      url = "/posts/"
-
-    [[params.homeInfoParams.buttons]]
-      name = "Chi Siamo"
-      url = "/about/"
+    # --- MODALITÀ PROFILO HOME (Molto più moderna) ---
+  [params.profileMode]
+    enabled = true
+    title = "MarTech Genius 🚀"
+    subtitle = "Recensioni indipendenti, comparazioni e guide pratiche sui migliori strumenti di Marketing Automation e CRM per far scalare il tuo business."
+    imageUrl = "" # Possiamo aggiungere un logo qui in seguito
+    imageTitle = "MarTech Genius"
+    buttons = [
+      { name = "Esplora le Recensioni 📚", url = "/posts/" },
+      { name = "Chi Siamo", url = "/about/" }
+    ]
 
 # --- MENU DI NAVIGAZIONE ---
 [[menu.main]]
