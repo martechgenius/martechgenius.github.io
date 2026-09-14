@@ -35,27 +35,42 @@ googleAnalytics = "G-S05879Z1TC"
   showBreadCrumbs = true
   showCodeCopyButtons = true
 
+  # --- BOX DI BENVENUTO CON PULSANTI CENTRALI ---
   [params.homeInfoParams]
     Title = "Migliora il tuo Marketing con la Tecnologia 🚀"
     Content = "Recensioni approfondite, analisi comparative e guide pratiche sui migliori software MarTech per ottimizzare le tue strategie digitali."
+    
+    # PULSANTI AL CENTRO DELLA HOMEPAGE:
+    [[params.homeInfoParams.buttons]]
+      name = "Tutti gli Articoli 📚"
+      url = "/posts/"
 
-# --- MENU DI NAVIGAZIONE COMPLETO ---
+    [[params.homeInfoParams.buttons]]
+      name = "Chi Siamo"
+      url = "/about/"
+
+# --- MENU DI NAVIGAZIONE IN ALTO ---
+[[menu.main]]
+  name = "Articoli"
+  url = "/posts/"
+  weight = 1
+
 [[menu.main]]
   name = "Chi Siamo"
   url = "/about/"
-  weight = 1
+  weight = 2
 
 [[menu.main]]
   name = "Disclaimer"
   url = "/disclaimer-affiliazione/"
-  weight = 2
+  weight = 3
 
 [[menu.main]]
   name = "Privacy Policy"
   url = "/privacy-policy/"
-  weight = 3
+  weight = 4
 
 [[menu.main]]
   name = "Contatti"
   url = "/contact/"
-  weight = 4
+  weight = 5
