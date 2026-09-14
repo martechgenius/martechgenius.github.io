@@ -34,3 +34,7 @@ theme = 'PaperMod'
   name = 'Privacy Policy'
   url = '/privacy-policy/'
   weight = 40
+[[menu.main]]
+  name = "Chi Siamo"
+  url = "/about/"
+  weight = 10
