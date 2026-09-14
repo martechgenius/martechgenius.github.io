@@ -39,4 +39,4 @@ La presenza di un link di affiliazione non influenza mai i nostri giudizi o la n
 
 Hai domande, proposte di collaborazione o vuoi che analizziamo uno strumento specifico? 
 
-Scrivici a: **info@martechgenius.io**
+Scrivici a: **martechgenius.info@gmail.com**
