@@ -1,8 +1,9 @@
 ---
-title: "Disclaimer di Affiliazione e Trasparenza"
+title: "Disclaimer di Affiliazione"
 description: "Informativa sulla trasparenza dei contenuti e sulle commissioni di affiliazione presenti su MarTech Genius."
 layout: "single"
 hideMeta: true
+showBreadCrumbs: false
 ---
 
 Su **MarTech Genius** crediamo fortemente nella trasparenza nei confronti dei nostri lettori. In questa pagina spieghiamo nel dettaglio come sosteniamo il nostro progetto editoriale e come gestiamo le relazioni di affiliazione con i fornitori di software.
@@ -42,3 +43,7 @@ Tutti i marchi, loghi, registrazioni e nomi commerciali di prodotti citati all'i
 Se hai dubbi o desideri chiarimenti in merito alla nostra politica di trasparenza o all'utilizzo dei link di affiliazione nel sito, puoi scriverci in qualsiasi momento a:
 
 📩 **Email:** `info@martechgenius.io`
+
+<br>
+
+<a href="/posts/" class="btn-affiliate">← Torna a tutti gli Articoli</a>
