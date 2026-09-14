@@ -1,41 +1,52 @@
-/* --- OPZIONE 3: DEEP SLATE & ELECTRIC VIOLET --- */
+/* === PALETTE GLOBALE DEEP SLATE & ELECTRIC VIOLET === */
 
-/* Modalità Chiara (Light Mode) */
-:root {
-  --bg: #fafafa;
-  --entry: #ffffff;
-  --primary: #18181b;
-  --secondary: #71717a;
-  --tertiary: #e4e4e7;
-  --theme: #7c3aed;            /* Viola Elettrico per link e dettagli */
+/* Forza lo sfondo scuro e il testo chiaro su tutto il sito */
+:root, .dark {
+  --bg: #09090b !important;         /* Sfondo generale scuro */
+  --entry: #18181b !important;      /* Sfondo card e riquadri */
+  --primary: #f4f4f5 !important;    /* Testo principale chiaro */
+  --secondary: #a1a1aa !important;  /* Testo secondario */
+  --tertiary: #27272a !important;   /* Bordi e divisori */
+  --theme: #8b5cf6 !important;      /* Viola elettrico d'accento */
 }
 
-/* Modalità Scura (Dark Mode) */
-.dark {
-  --bg: #09090b;               /* Sfondo quasi nero matt */
-  --entry: #18181b;            /* Card grigio scuro */
-  --primary: #f4f4f5;          /* Testo principale chiaro */
-  --secondary: #a1a1aa;        /* Testo secondario */
-  --tertiary: #27272a;         /* Bordi e divisori scuri */
-  --theme: #8b5cf6;            /* Viola luminoso in Dark Mode */
+/* Stile per tutti i link del sito */
+a {
+  color: #8b5cf6 !important;
+  transition: color 0.2s ease;
 }
 
-/* --- PULSANTE CTA PER LINK AFFILIATI --- */
+a:hover {
+  color: #a78bfa !important;
+}
+
+/* Header della navigazione */
+.nav {
+  background-color: #09090b !important;
+  border-bottom: 1px solid #27272a;
+}
+
+.logo a {
+  color: #f4f4f5 !important;
+  font-weight: 800;
+}
+
+/* Pulsante CTA d'impatto per gli articoli */
 .affiliate-btn {
-  display: inline-block;
-  background-color: #7c3aed;
+  display: inline-block !important;
+  background-color: #7c3aed !important;
   color: #ffffff !important;
   padding: 12px 24px;
   border-radius: 8px;
   font-weight: 700;
-  text-decoration: none;
-  margin: 12px 0;
-  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+  text-decoration: none !important;
+  margin: 15px 0;
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.4);
   transition: all 0.2s ease-in-out;
 }
 
 .affiliate-btn:hover {
-  background-color: #6d28d9;
+  background-color: #6d28d9 !important;
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(124, 58, 237, 0.4);
+  box-shadow: 0 6px 18px rgba(124, 58, 237, 0.6);
 }
