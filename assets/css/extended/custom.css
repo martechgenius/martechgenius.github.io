@@ -1,0 +1,41 @@
+/* --- OPZIONE 3: DEEP SLATE & ELECTRIC VIOLET --- */
+
+/* Modalità Chiara (Light Mode) */
+:root {
+  --bg: #fafafa;
+  --entry: #ffffff;
+  --primary: #18181b;
+  --secondary: #71717a;
+  --tertiary: #e4e4e7;
+  --theme: #7c3aed;            /* Viola Elettrico per link e dettagli */
+}
+
+/* Modalità Scura (Dark Mode) */
+.dark {
+  --bg: #09090b;               /* Sfondo quasi nero matt */
+  --entry: #18181b;            /* Card grigio scuro */
+  --primary: #f4f4f5;          /* Testo principale chiaro */
+  --secondary: #a1a1aa;        /* Testo secondario */
+  --tertiary: #27272a;         /* Bordi e divisori scuri */
+  --theme: #8b5cf6;            /* Viola luminoso in Dark Mode */
+}
+
+/* --- PULSANTE CTA PER LINK AFFILIATI --- */
+.affiliate-btn {
+  display: inline-block;
+  background-color: #7c3aed;
+  color: #ffffff !important;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 12px 0;
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+  transition: all 0.2s ease-in-out;
+}
+
+.affiliate-btn:hover {
+  background-color: #6d28d9;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(124, 58, 237, 0.4);
+}
