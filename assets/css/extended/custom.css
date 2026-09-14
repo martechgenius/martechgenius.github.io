@@ -1,52 +1,52 @@
-/* === PALETTE GLOBALE DEEP SLATE & ELECTRIC VIOLET === */
+/* === PALETTE GLOBALE EMERALD GROWTH === */
 
-/* Forza lo sfondo scuro e il testo chiaro su tutto il sito */
-:root, .dark {
-  --bg: #09090b !important;         /* Sfondo generale scuro */
-  --entry: #18181b !important;      /* Sfondo card e riquadri */
-  --primary: #f4f4f5 !important;    /* Testo principale chiaro */
-  --secondary: #a1a1aa !important;  /* Testo secondario */
-  --tertiary: #27272a !important;   /* Bordi e divisori */
-  --theme: #8b5cf6 !important;      /* Viola elettrico d'accento */
+/* Modalità Chiara (Light Mode) */
+:root {
+  --bg: #f4fbf7 !important;         /* Sfondo menta chiarissimo */
+  --entry: #ffffff !important;      /* Card bianche */
+  --primary: #064e3b !important;    /* Testo scuro verde foresta */
+  --secondary: #374151 !important;  /* Testo secondario */
+  --tertiary: #d1fae5 !important;   /* Bordi e separatori verdi chiari */
+  --theme: #059669 !important;      /* Verde Smeraldo per link e accenti */
 }
 
-/* Stile per tutti i link del sito */
+/* Modalità Scura (Dark Mode) */
+.dark {
+  --bg: #041a12 !important;         /* Sfondo scuro verde notte */
+  --entry: #064e3b !important;      /* Sfondo card scure */
+  --primary: #ecfdf5 !important;    /* Testo principale chiaro */
+  --secondary: #a7f3d0 !important;  /* Testo secondario verde chiaro */
+  --tertiary: #047857 !important;   /* Bordi scuri */
+  --theme: #10b981 !important;      /* Verde luminoso in Dark Mode */
+}
+
+/* Link generali */
 a {
-  color: #8b5cf6 !important;
+  color: var(--theme) !important;
   transition: color 0.2s ease;
-}
-
-a:hover {
-  color: #a78bfa !important;
 }
 
 /* Header della navigazione */
 .nav {
-  background-color: #09090b !important;
-  border-bottom: 1px solid #27272a;
+  border-bottom: 1px solid var(--tertiary);
 }
 
-.logo a {
-  color: #f4f4f5 !important;
-  font-weight: 800;
-}
-
-/* Pulsante CTA d'impatto per gli articoli */
+/* Pulsante CTA d'impatto per i link affiliati */
 .affiliate-btn {
   display: inline-block !important;
-  background-color: #7c3aed !important;
+  background-color: #10b981 !important;
   color: #ffffff !important;
   padding: 12px 24px;
   border-radius: 8px;
   font-weight: 700;
   text-decoration: none !important;
   margin: 15px 0;
-  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.4);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
   transition: all 0.2s ease-in-out;
 }
 
 .affiliate-btn:hover {
-  background-color: #6d28d9 !important;
+  background-color: #059669 !important;
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(124, 58, 237, 0.6);
+  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.5);
 }
