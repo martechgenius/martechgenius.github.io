@@ -1,74 +1,46 @@
 /* ==========================================================================
-   MARTECH GENIUS - TECH SKY (RELAXING PALETTE)
+   HOMEPAGE - STILE EDITORIALE E GRIGLIA
    ========================================================================== */
 
-:root {
-  /* Tonalità Azurro Polvere Rilassante */
-  --accent-sky: #0369a1;        /* Azzurro profondo e morbido per titoli e link */
-  --accent-sky-hover: #075985;  /* Hover leggermente più scuro */
-  --accent-light: #e0f2fe;     /* Sfondo tenue per box e badge */
+/* 1. Riquadro di Benvenuto (Hero Section) più elegante */
+.first-entry {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  border: 1px solid #bae6fd;
+  border-radius: 12px;
+  padding: 32px !important;
+  margin-bottom: 40px !important;
+  box-shadow: 0 4px 20px rgba(3, 105, 161, 0.06);
 }
 
-/* 1. Titoli degli articoli e intestazioni (Più morbidi per gli occhi) */
-.post-title,
-.post-content h1,
-.post-content h2,
-.post-content h3 {
-  color: var(--accent-sky) !important;
-  font-weight: 700;
-  letter-spacing: -0.01em;
+.first-entry .entry-header h1 {
+  color: #0369a1 !important;
+  font-size: 2.1rem !important;
+  margin-bottom: 12px;
 }
 
-/* 2. Link all'interno degli articoli */
-.post-content a {
-  color: var(--accent-sky);
-  text-decoration: underline;
-  text-decoration-color: rgba(3, 105, 161, 0.3);
-  text-underline-offset: 3px;
-  transition: all 0.2s ease;
-}
-
-.post-content a:hover {
-  color: var(--accent-sky-hover);
-  text-decoration-color: var(--accent-sky-hover);
-}
-
-/* 3. Pulsanti CTA (Call To Action) - Versione Rilassante */
-.btn-affiliate,
-.post-content .button,
-.post-content a.btn {
-  display: inline-block;
-  background-color: var(--accent-sky) !important;
-  color: #ffffff !important;
-  padding: 12px 24px;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none !important;
-  box-shadow: 0 4px 12px rgba(3, 105, 161, 0.15);
-  transition: all 0.25s ease;
-}
-
-.btn-affiliate:hover,
-.post-content .button:hover,
-.post-content a.btn:hover {
-  background-color: var(--accent-sky-hover) !important;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(3, 105, 161, 0.25);
-}
-
-/* 4. Effetto Hover sulle Schede della Homepage */
+/* 2. Trasformazione articoli in Schede (Cards) ben definite */
 .post-entry {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #ffffff;
+  border-radius: 10px;
   border: 1px solid #e2e8f0;
+  padding: 24px !important;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.25s ease-in-out;
 }
 
 .post-entry:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-  border-color: #cbd5e1;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(3, 105, 161, 0.12);
+  border-color: #7dd3fc;
 }
 
-/* 5. Intestazione Menu (Header) */
-.nav a:hover {
-  color: var(--accent-sky) !important;
+/* 3. Pulsanti d'azione (CTA) centrati nel Hero */
+.button-inner {
+  background-color: #0369a1 !important;
+  color: #ffffff !important;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(3, 105, 161, 0.2);
 }
