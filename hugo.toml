@@ -19,6 +19,10 @@ googleAnalytics = "G-S05879Z1TC"
   keywords = ["martech", "email marketing", "automazioni", "crm", "activecampaign", "make"]
   author = "MarTech Genius Team"
   
+  # --- STILE E TEMI (Attiva Dark/Light mode) ---
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
   # --- GOOGLE SEARCH CONSOLE ---
   googleSiteVerification = "jrSWz71HE_c7xkU8wPGYXCzV79JjhTaQxvR"
 
@@ -37,21 +41,16 @@ googleAnalytics = "G-S05879Z1TC"
 
 # --- MENU DI NAVIGAZIONE ---
 [[menu.main]]
-  name = "Strumenti Consigliati"
-  url = "/categories/strumenti/"
+  name = "Chi Siamo"
+  url = "/about/"
   weight = 1
 
 [[menu.main]]
-  name = "Chi Siamo"
-  url = "/about/"
+  name = "Disclaimer"
+  url = "/disclaimer-affiliazione/"
   weight = 2
 
 [[menu.main]]
-  name = "Disclaimer"
-  url = "/disclaimer/"
+  name = "Contatti"
+  url = "/contact/"
   weight = 3
-
-[[menu.main]]
-  name = "Privacy Policy"
-  url = "/privacy-policy/"
-  weight = 4
