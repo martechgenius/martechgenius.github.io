@@ -13,7 +13,7 @@ Hai domande sulle nostre recensioni, suggerimenti su strumenti da analizzare o p
 
 Per qualsiasi richiesta informativa, editoriale o commerciale, puoi scriverci direttamente al nostro indirizzo email dedicato:
 
-📩 **Email di contatto:** `info@martechgenius.io`
+📩 **Email di contatto:** `martechgenius.info@gmail.com
 
 ---
 
