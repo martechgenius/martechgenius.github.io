@@ -1,40 +1,57 @@
-baseURL = 'https://martechgenius.github.io/'
-languageCode = 'it-it'
-title = 'MarTech Genius'
-theme = 'PaperMod'
+baseURL = "https://martechgenius.github.io/"
+languageCode = "it-it"
+defaultContentLanguage = "it"
+title = "MarTech Genius"
+theme = "PaperMod"
 
+# --- GOOGLE ANALYTICS 4 ---
+googleAnalytics = "G-S05879Z1TC"
+
+# --- ABILITA RSS / FEED ---
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# --- CONFIGURAZIONE PARAMS & SEARCH CONSOLE ---
 [params]
-  env = 'production'
-  title = 'MarTech Genius'
-  description = 'Guide, recensioni e strumenti di Marketing Technology'
-  defaultTheme = 'auto'              # <-- Forzato su Dark Mode
-  disableThemeToggle = false
+  env = "production"
+  title = "MarTech Genius"
+  description = "Guida e recensioni indipendenti ai migliori strumenti di Marketing Automation, CRM e Digital Marketing."
+  keywords = ["martech", "email marketing", "automazioni", "crm", "activecampaign", "make"]
+  author = "MarTech Genius Team"
+  
+  # --- GOOGLE SEARCH CONSOLE ---
+  googleSiteVerification = "jrSWz71HE_c7xkU8wPGYXCzV79JjhTaQxvR"
+
+  # --- LAYOUT E HOME ---
   showToc = true
+  TocOpen = false
+  showReadingTime = true
+  showShareButtons = false
+  showPostNavLinks = true
+  showBreadCrumbs = true
+  showCodeCopyButtons = true
 
   [params.homeInfoParams]
-    Title = 'Benvenuto su MarTech Genius 👋'
-    Content = 'Analisi approfondite dei migliori software e strumenti per il digital marketing.'
+    Title = "Migliora il tuo Marketing con la Tecnologia 🚀"
+    Content = "Recensioni approfondite, analisi comparative e guide pratiche sui migliori software MarTech per ottimizzare le tue strategie digitali."
 
+# --- MENU DI NAVIGAZIONE ---
 [[menu.main]]
-  name = 'Articoli'
-  url = '/posts/'
-  weight = 10
+  name = "Strumenti Consigliati"
+  url = "/categories/strumenti/"
+  weight = 1
 
-[[menu.main]]
-  name = 'Strumenti Consigliati'
-  url = '/categories/strumenti/'
-  weight = 20
-
-[[menu.main]]
-  name = 'Disclaimer'
-  url = '/disclaimer-affiliazione/'
-  weight = 30
-
-[[menu.main]]
-  name = 'Privacy Policy'
-  url = '/privacy-policy/'
-  weight = 40
 [[menu.main]]
   name = "Chi Siamo"
   url = "/about/"
-  weight = 10
+  weight = 2
+
+[[menu.main]]
+  name = "Disclaimer"
+  url = "/disclaimer/"
+  weight = 3
+
+[[menu.main]]
+  name = "Privacy Policy"
+  url = "/privacy-policy/"
+  weight = 4
