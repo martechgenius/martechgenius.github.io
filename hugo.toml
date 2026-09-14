@@ -19,7 +19,7 @@ googleAnalytics = "G-S05879Z1TC"
   keywords = ["martech", "email marketing", "automazioni", "crm", "activecampaign", "make"]
   author = "MarTech Genius Team"
   
-  # --- STILE E TEMI (Attiva Dark/Light mode) ---
+  # --- STILE E TEMI ---
   defaultTheme = "auto"
   disableThemeToggle = false
 
@@ -35,21 +35,26 @@ googleAnalytics = "G-S05879Z1TC"
   showBreadCrumbs = true
   showCodeCopyButtons = true
 
-  # --- BOX DI BENVENUTO CON PULSANTI CENTRALI ---
+  # --- HOMEPAGE RICCA E STRUTTURATA ---
   [params.homeInfoParams]
-    Title = "Migliora il tuo Marketing con la Tecnologia 🚀"
-    Content = "Recensioni approfondite, analisi comparative e guide pratiche sui migliori software MarTech per ottimizzare le tue strategie digitali."
+    Title = "Semplifica il tuo Marketing con la Tecnologia 🚀"
+    Content = """
+    Benvenuto su **MarTech Genius**, la tua risorsa indipendente per orientarti nel mondo del Digital Marketing e delle Automazioni. 
+
+    Analizziamo, testiamo e mettiamo a confronto i migliori software (CRM, Email Marketing, Workflows) per aiutarti a far crescere il tuo business senza sprechi di tempo o budget.
+
+    ⚡ **Analisi imparziali** | 🛠️ **Test pratici** | 📊 **Guide passo-passo**
+    """
     
-    # PULSANTI AL CENTRO DELLA HOMEPAGE:
     [[params.homeInfoParams.buttons]]
-      name = "Tutti gli Articoli 📚"
+      name = "Esplora gli Articoli 📚"
       url = "/posts/"
 
     [[params.homeInfoParams.buttons]]
       name = "Chi Siamo"
       url = "/about/"
 
-# --- MENU DI NAVIGAZIONE IN ALTO ---
+# --- MENU DI NAVIGAZIONE ---
 [[menu.main]]
   name = "Articoli"
   url = "/posts/"
