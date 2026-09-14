@@ -42,8 +42,7 @@ Tutti i marchi, loghi, registrazioni e nomi commerciali di prodotti citati all'i
 
 Se hai dubbi o desideri chiarimenti in merito alla nostra politica di trasparenza o all'utilizzo dei link di affiliazione nel sito, puoi scriverci in qualsiasi momento a:
 
-📩 **Email:** `info@martechgenius.io`
-
+📩 **Email:** ``martechgenius.info@gmail.com
 <br>
 
 <a href="/posts/" class="btn-affiliate">← Torna a tutti gli Articoli</a>
