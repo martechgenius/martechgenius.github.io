@@ -39,7 +39,7 @@ googleAnalytics = "G-S05879Z1TC"
     Title = "Migliora il tuo Marketing con la Tecnologia 🚀"
     Content = "Recensioni approfondite, analisi comparative e guide pratiche sui migliori software MarTech per ottimizzare le tue strategie digitali."
 
-# --- MENU DI NAVIGAZIONE ---
+# --- MENU DI NAVIGAZIONE COMPLETO ---
 [[menu.main]]
   name = "Chi Siamo"
   url = "/about/"
@@ -51,6 +51,11 @@ googleAnalytics = "G-S05879Z1TC"
   weight = 2
 
 [[menu.main]]
+  name = "Privacy Policy"
+  url = "/privacy-policy/"
+  weight = 3
+
+[[menu.main]]
   name = "Contatti"
   url = "/contact/"
-  weight = 3
+  weight = 4
