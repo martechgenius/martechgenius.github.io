@@ -1,33 +1,33 @@
-/* === PALETTE CELESTE / TECH SKY & SOFT CARDS === */
+/* === PALETTE CELESTE SOFT CON FOOTER ED HOVER AVANZATI === */
 
 /* --- MODALITÀ CHIARA (LIGHT) --- */
 :root {
-  --bg: #f8fafc;               /* Sfondo generale grigio/azzurrino fresco */
-  --entry: #f0f4f8;            /* Sfondo card più morbido (niente bianco sparato) */
-  --primary: #1e293b;          /* Testo principale scuro e riposante */
+  --bg: #f8fafc;               /* Sfondo generale */
+  --entry: #ffffff;            /* Card bianche pulite */
+  --primary: #1e293b;          /* Testo principale scuro */
   --secondary: #64748b;        /* Testo secondario */
-  --tertiary: #cbd5e1;         /* Bordi e divisori leggeri */
-  --theme: #0284c7;            /* Azzurro Oceano per link e accenti */
+  --tertiary: #e2e8f0;         /* Bordi neutri leggeri */
+  --theme: #0284c7;            /* Azzurro d'accento */
 }
 
 /* --- MODALITÀ SCURA (DARK) --- */
 .dark {
-  --bg: #0f172a;               /* Sfondo scuro blu notte */
-  --entry: #1e293b;            /* Sfondo card scure */
-  --primary: #f8fafc;          /* Testo chiaro */
-  --secondary: #94a3b8;        /* Testo secondario */
-  --tertiary: #334155;         /* Bordi scuri */
-  --theme: #38bdf8;            /* Azzurro cielo luminoso */
+  --bg: #0f172a;               
+  --entry: #1e293b;            
+  --primary: #f8fafc;          
+  --secondary: #94a3b8;        
+  --tertiary: #334155;         
+  --theme: #38bdf8;            
 }
 
-/* --- FIX HEADER & NOME DEL SITO --- */
+/* --- HEADER & NOME SITO --- */
 .logo a {
   color: var(--primary) !important;
   font-weight: 800;
   font-size: 20px;
 }
 
-/* --- FIX MENU DI NAVIGAZIONE --- */
+/* --- MENU DI NAVIGAZIONE --- */
 .menu a {
   color: var(--primary) !important;
   font-weight: 600;
@@ -38,33 +38,51 @@
 
 .menu a:hover {
   color: #0284c7 !important;
-  background-color: #e0f2fe !important;
+  background-color: #f1f5f9 !important;
 }
 
-.dark .menu a:hover {
-  color: #38bdf8 !important;
-  background-color: #1e293b !important;
-}
-
-/* Voce di menu Attiva */
+/* Voce di menu Attiva (Disclaimer / Privacy / ecc) */
 .menu .active {
   color: #ffffff !important;
   background-color: #0284c7 !important;
   font-weight: 700;
 }
 
-/* --- SFONDO CARD ARTICOLI & STRUMENTI (HOME & ARCHIVIO) --- */
+/* --- CARD ARTICOLI & STRUMENTI CONSIAGLIATI (ATTENUATE) --- */
 .post-entry {
   background-color: var(--entry) !important;
-  border: 1px solid var(--tertiary);
-  border-radius: 12px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.03);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid var(--tertiary) !important;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
+/* Effetto Hover sulle Card */
 .post-entry:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(2, 132, 199, 0.1);
+  transform: translateY(-4px);
+  border-color: #bae6fd !important; /* Azzurro delicatissimo solo al passaggio del mouse */
+  box-shadow: 0 10px 20px -5px rgba(2, 132, 199, 0.12);
+}
+
+/* --- FOOTER PERSONALIZZATO --- */
+.footer {
+  margin-top: 40px;
+  padding: 24px 0;
+  border-top: 1px solid var(--tertiary);
+  color: var(--secondary);
+  font-size: 13px;
+  text-align: center;
+}
+
+.footer a {
+  color: var(--secondary) !important;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: #0284c7 !important; /* L'azzurro risalta al passaggio del mouse */
 }
 
 /* --- LINK GENERALI E PULSANTI CTA --- */
@@ -75,19 +93,19 @@ a {
 
 .affiliate-btn {
   display: inline-block !important;
-  background-color: #0284c7 !important;   /* Azzurro sereno e professionale */
+  background-color: #0284c7 !important;
   color: #ffffff !important;
   padding: 12px 24px;
   border-radius: 8px;
   font-weight: 700;
   text-decoration: none !important;
   margin: 15px 0;
-  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.2);
   transition: all 0.2s ease-in-out;
 }
 
 .affiliate-btn:hover {
   background-color: #0369a1 !important;
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(2, 132, 199, 0.4);
+  box-shadow: 0 6px 16px rgba(2, 132, 199, 0.35);
 }
