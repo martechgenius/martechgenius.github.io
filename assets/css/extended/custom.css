@@ -1,111 +1,74 @@
-/* === PALETTE CELESTE SOFT CON FOOTER ED HOVER AVANZATI === */
+/* ==========================================================================
+   MARTECH GENIUS - TECH SKY (RELAXING PALETTE)
+   ========================================================================== */
 
-/* --- MODALITÀ CHIARA (LIGHT) --- */
 :root {
-  --bg: #f8fafc;               /* Sfondo generale */
-  --entry: #ffffff;            /* Card bianche pulite */
-  --primary: #1e293b;          /* Testo principale scuro */
-  --secondary: #64748b;        /* Testo secondario */
-  --tertiary: #e2e8f0;         /* Bordi neutri leggeri */
-  --theme: #0284c7;            /* Azzurro d'accento */
+  /* Tonalità Azurro Polvere Rilassante */
+  --accent-sky: #0369a1;        /* Azzurro profondo e morbido per titoli e link */
+  --accent-sky-hover: #075985;  /* Hover leggermente più scuro */
+  --accent-light: #e0f2fe;     /* Sfondo tenue per box e badge */
 }
 
-/* --- MODALITÀ SCURA (DARK) --- */
-.dark {
-  --bg: #0f172a;               
-  --entry: #1e293b;            
-  --primary: #f8fafc;          
-  --secondary: #94a3b8;        
-  --tertiary: #334155;         
-  --theme: #38bdf8;            
+/* 1. Titoli degli articoli e intestazioni (Più morbidi per gli occhi) */
+.post-title,
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  color: var(--accent-sky) !important;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
-/* --- HEADER & NOME SITO --- */
-.logo a {
-  color: var(--primary) !important;
-  font-weight: 800;
-  font-size: 20px;
-}
-
-/* --- MENU DI NAVIGAZIONE --- */
-.menu a {
-  color: var(--primary) !important;
-  font-weight: 600;
-  padding: 6px 12px;
-  border-radius: 6px;
+/* 2. Link all'interno degli articoli */
+.post-content a {
+  color: var(--accent-sky);
+  text-decoration: underline;
+  text-decoration-color: rgba(3, 105, 161, 0.3);
+  text-underline-offset: 3px;
   transition: all 0.2s ease;
 }
 
-.menu a:hover {
-  color: #0284c7 !important;
-  background-color: #f1f5f9 !important;
+.post-content a:hover {
+  color: var(--accent-sky-hover);
+  text-decoration-color: var(--accent-sky-hover);
 }
 
-/* Voce di menu Attiva (Disclaimer / Privacy / ecc) */
-.menu .active {
-  color: #ffffff !important;
-  background-color: #0284c7 !important;
-  font-weight: 700;
-}
-
-/* --- CARD ARTICOLI & STRUMENTI CONSIAGLIATI (ATTENUATE) --- */
-.post-entry {
-  background-color: var(--entry) !important;
-  border: 1px solid var(--tertiary) !important;
-  border-radius: 10px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
-}
-
-/* Effetto Hover sulle Card */
-.post-entry:hover {
-  transform: translateY(-4px);
-  border-color: #bae6fd !important; /* Azzurro delicatissimo solo al passaggio del mouse */
-  box-shadow: 0 10px 20px -5px rgba(2, 132, 199, 0.12);
-}
-
-/* --- FOOTER PERSONALIZZATO --- */
-.footer {
-  margin-top: 40px;
-  padding: 24px 0;
-  border-top: 1px solid var(--tertiary);
-  color: var(--secondary);
-  font-size: 13px;
-  text-align: center;
-}
-
-.footer a {
-  color: var(--secondary) !important;
-  font-weight: 600;
-  text-decoration: underline;
-  transition: color 0.2s ease;
-}
-
-.footer a:hover {
-  color: #0284c7 !important; /* L'azzurro risalta al passaggio del mouse */
-}
-
-/* --- LINK GENERALI E PULSANTI CTA --- */
-a {
-  color: var(--theme);
-  transition: color 0.2s ease;
-}
-
-.affiliate-btn {
-  display: inline-block !important;
-  background-color: #0284c7 !important;
+/* 3. Pulsanti CTA (Call To Action) - Versione Rilassante */
+.btn-affiliate,
+.post-content .button,
+.post-content a.btn {
+  display: inline-block;
+  background-color: var(--accent-sky) !important;
   color: #ffffff !important;
   padding: 12px 24px;
   border-radius: 8px;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none !important;
-  margin: 15px 0;
-  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.2);
-  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 12px rgba(3, 105, 161, 0.15);
+  transition: all 0.25s ease;
 }
 
-.affiliate-btn:hover {
-  background-color: #0369a1 !important;
+.btn-affiliate:hover,
+.post-content .button:hover,
+.post-content a.btn:hover {
+  background-color: var(--accent-sky-hover) !important;
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(2, 132, 199, 0.35);
+  box-shadow: 0 6px 16px rgba(3, 105, 161, 0.25);
+}
+
+/* 4. Effetto Hover sulle Schede della Homepage */
+.post-entry {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid #e2e8f0;
+}
+
+.post-entry:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  border-color: #cbd5e1;
+}
+
+/* 5. Intestazione Menu (Header) */
+.nav a:hover {
+  color: var(--accent-sky) !important;
 }
