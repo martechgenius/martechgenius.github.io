@@ -1,37 +1,55 @@
-/* === PALETTE GLOBALE EMERALD GROWTH === */
+/* === PALETTE EMERALD GROWTH CON MENU AD ALTO CONTRASTO === */
 
 /* Modalità Chiara (Light Mode) */
 :root {
-  --bg: #f4fbf7 !important;         /* Sfondo menta chiarissimo */
-  --entry: #ffffff !important;      /* Card bianche */
-  --primary: #064e3b !important;    /* Testo scuro verde foresta */
+  --bg: #f4fbf7 !important;         /* Sfondo generale */
+  --entry: #ffffff !important;      /* Sfondo card */
+  --primary: #064e3b !important;    /* Testo principale */
   --secondary: #374151 !important;  /* Testo secondario */
-  --tertiary: #d1fae5 !important;   /* Bordi e separatori verdi chiari */
-  --theme: #059669 !important;      /* Verde Smeraldo per link e accenti */
+  --tertiary: #d1fae5 !important;   /* Bordi */
+  --theme: #059669 !important;      /* Verde d'accento */
 }
 
 /* Modalità Scura (Dark Mode) */
 .dark {
-  --bg: #041a12 !important;         /* Sfondo scuro verde notte */
-  --entry: #064e3b !important;      /* Sfondo card scure */
-  --primary: #ecfdf5 !important;    /* Testo principale chiaro */
-  --secondary: #a7f3d0 !important;  /* Testo secondario verde chiaro */
-  --tertiary: #047857 !important;   /* Bordi scuri */
-  --theme: #10b981 !important;      /* Verde luminoso in Dark Mode */
+  --bg: #041a12 !important;         
+  --entry: #064e3b !important;      
+  --primary: #ecfdf5 !important;    
+  --secondary: #a7f3d0 !important;  
+  --tertiary: #047857 !important;   
+  --theme: #10b981 !important;      
 }
 
-/* Link generali */
+/* --- FIX DEL MENU DI NAVIGAZIONE --- */
+/* Forza tutte le voci di menu a rimanere ben visibili */
+.menu a {
+  color: var(--primary) !important;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+/* Effetto quando passi sopra con il mouse */
+.menu a:hover {
+  color: #10b981 !important;
+  background-color: var(--tertiary) !important;
+}
+
+/* Voce di menu ATTIVA (quella della pagina su cui ti trovi) */
+.menu .active {
+  color: #ffffff !important;
+  background-color: #059669 !important;
+  font-weight: 700;
+}
+
+/* --- LINK GENERALI E PULSANTI --- */
 a {
-  color: var(--theme) !important;
+  color: var(--theme);
   transition: color 0.2s ease;
 }
 
-/* Header della navigazione */
-.nav {
-  border-bottom: 1px solid var(--tertiary);
-}
-
-/* Pulsante CTA d'impatto per i link affiliati */
+/* Pulsante CTA d'impatto per gli articoli */
 .affiliate-btn {
   display: inline-block !important;
   background-color: #10b981 !important;
