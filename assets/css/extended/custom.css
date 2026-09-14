@@ -1,27 +1,33 @@
-/* === PALETTE EMERALD GROWTH CON MENU AD ALTO CONTRASTO === */
+/* === PALETTE CELESTE / TECH SKY & SOFT CARDS === */
 
-/* Modalità Chiara (Light Mode) */
+/* --- MODALITÀ CHIARA (LIGHT) --- */
 :root {
-  --bg: #f4fbf7 !important;         /* Sfondo generale */
-  --entry: #ffffff !important;      /* Sfondo card */
-  --primary: #064e3b !important;    /* Testo principale */
-  --secondary: #374151 !important;  /* Testo secondario */
-  --tertiary: #d1fae5 !important;   /* Bordi */
-  --theme: #059669 !important;      /* Verde d'accento */
+  --bg: #f8fafc;               /* Sfondo generale grigio/azzurrino fresco */
+  --entry: #f0f4f8;            /* Sfondo card più morbido (niente bianco sparato) */
+  --primary: #1e293b;          /* Testo principale scuro e riposante */
+  --secondary: #64748b;        /* Testo secondario */
+  --tertiary: #cbd5e1;         /* Bordi e divisori leggeri */
+  --theme: #0284c7;            /* Azzurro Oceano per link e accenti */
 }
 
-/* Modalità Scura (Dark Mode) */
+/* --- MODALITÀ SCURA (DARK) --- */
 .dark {
-  --bg: #041a12 !important;         
-  --entry: #064e3b !important;      
-  --primary: #ecfdf5 !important;    
-  --secondary: #a7f3d0 !important;  
-  --tertiary: #047857 !important;   
-  --theme: #10b981 !important;      
+  --bg: #0f172a;               /* Sfondo scuro blu notte */
+  --entry: #1e293b;            /* Sfondo card scure */
+  --primary: #f8fafc;          /* Testo chiaro */
+  --secondary: #94a3b8;        /* Testo secondario */
+  --tertiary: #334155;         /* Bordi scuri */
+  --theme: #38bdf8;            /* Azzurro cielo luminoso */
 }
 
-/* --- FIX DEL MENU DI NAVIGAZIONE --- */
-/* Forza tutte le voci di menu a rimanere ben visibili */
+/* --- FIX HEADER & NOME DEL SITO --- */
+.logo a {
+  color: var(--primary) !important;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+/* --- FIX MENU DI NAVIGAZIONE --- */
 .menu a {
   color: var(--primary) !important;
   font-weight: 600;
@@ -30,41 +36,58 @@
   transition: all 0.2s ease;
 }
 
-/* Effetto quando passi sopra con il mouse */
 .menu a:hover {
-  color: #10b981 !important;
-  background-color: var(--tertiary) !important;
+  color: #0284c7 !important;
+  background-color: #e0f2fe !important;
 }
 
-/* Voce di menu ATTIVA (quella della pagina su cui ti trovi) */
+.dark .menu a:hover {
+  color: #38bdf8 !important;
+  background-color: #1e293b !important;
+}
+
+/* Voce di menu Attiva */
 .menu .active {
   color: #ffffff !important;
-  background-color: #059669 !important;
+  background-color: #0284c7 !important;
   font-weight: 700;
 }
 
-/* --- LINK GENERALI E PULSANTI --- */
+/* --- SFONDO CARD ARTICOLI & STRUMENTI (HOME & ARCHIVIO) --- */
+.post-entry {
+  background-color: var(--entry) !important;
+  border: 1px solid var(--tertiary);
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-entry:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(2, 132, 199, 0.1);
+}
+
+/* --- LINK GENERALI E PULSANTI CTA --- */
 a {
   color: var(--theme);
   transition: color 0.2s ease;
 }
 
-/* Pulsante CTA d'impatto per gli articoli */
 .affiliate-btn {
   display: inline-block !important;
-  background-color: #10b981 !important;
+  background-color: #0284c7 !important;   /* Azzurro sereno e professionale */
   color: #ffffff !important;
   padding: 12px 24px;
   border-radius: 8px;
   font-weight: 700;
   text-decoration: none !important;
   margin: 15px 0;
-  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
   transition: all 0.2s ease-in-out;
 }
 
 .affiliate-btn:hover {
-  background-color: #059669 !important;
+  background-color: #0369a1 !important;
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.5);
+  box-shadow: 0 6px 16px rgba(2, 132, 199, 0.4);
 }
