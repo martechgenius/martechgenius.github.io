@@ -7,7 +7,8 @@ theme = 'PaperMod'
   env = 'production'
   title = 'MarTech Genius'
   description = 'Guide, recensioni e strumenti di Marketing Technology'
-  defaultTheme = 'auto'
+  defaultTheme = 'dark'              # <-- Forzato su Dark Mode
+  disableThemeToggle = false
   showToc = true
 
   [params.homeInfoParams]
