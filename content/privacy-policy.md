@@ -16,7 +16,7 @@ Si tratta di un'informativa resa ai sensi dell'art. 13 del Regolamento UE 2016/6
 
 Il Titolare del trattamento dei dati personali raccolti attraverso questo sito è il team editoriale di **MarTech Genius**. Per qualsiasi richiesta di chiarimento o esercizio dei diritti, è possibile contattarci all'indirizzo email:
 
-📩 **Email:** `info@martechgenius.io`
+📩 **Email:** `martechgenius.info@gmail.com
 
 ---
 
@@ -48,7 +48,7 @@ I dati personali sono trattati con strumenti automatizzati per il tempo strettam
 
 Gli utenti hanno il diritto in qualunque momento di ottenere la conferma dell'esistenza o meno dei medesimi dati, di conoscerne il contenuto e l'origine, verificarne l'esattezza o chiederne l'integrazione, l'aggiornamento, oppure la rettifica o la cancellazione (artt. 15-22 GDPR).
 
-Le richieste vanno rivolte via email a: **info@martechgenius.io**
+Le richieste vanno rivolte via email a: **martechgenius.info@gmail.com**
 
 <br>
 
