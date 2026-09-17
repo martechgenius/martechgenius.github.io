@@ -39,6 +39,7 @@ A differenza di altre piattaforme basate su liste testuali, Make adotta un **edi
 | **Complessità Flussi** | Molto Alta (branching illimitato) | Media / Alta |
 | **Curva di Apprendimento** | Media | Bassa |
 
+> 🎁 **Offerta Esclusiva MarTech Genius:** Registrati tramite il nostro link per riscattare **[1 mese GRATIS di piano Core con 10.000 crediti inclusi su Make.com](https://www.make.com/en/register?pc=martechgenius)**.
 ---
 
 ## Pro e Contro
