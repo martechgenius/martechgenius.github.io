@@ -25,7 +25,7 @@ Ecco i 5 libri essenziali che ogni marketer, imprenditore o consulente digitale 
 | **Hooked** | Nir Eyal | Psicologia dei Prodotti Ricorrenti | Intermedio |
 | **Traction** | Gabriel Weinberg & Justin Mares | Canalizzazione e Acquisizione | Principiante / Intermedio |
 | **$100M Leads** | Alex Hormozi | Generazione Lead & Offerte | Tutti i livelli |
-
+> 📚 **Metti in pratica la teoria:** La piattaforma ideale per testare i concetti appresi in questi libri è **[Make.com (attiva qui 1 mese gratis con 10.000 crediti)](https://www.make.com/en/register?pc=martechgenius)**.
 ---
 
 ## 1. "Building a StoryBrand" – Donald Miller
