@@ -49,7 +49,8 @@ ActiveCampaign è una piattaforma all-in-one che unisce **Email Marketing**, **M
 ### 🔴 Svantaggi
 * Piano base privo di alcune funzionalità CRM chiave.
 * Interfaccia molto ricca che richiede qualche giorno di orientamento.
-
+  
+> 🔮 **Potenzia ActiveCampaign:** Invia dati da e verso ActiveCampaign usando modelli AI tramite **[Make.com (1 mese gratis di piano Core)](https://www.make.com/en/register?pc=martechgenius)**.
 ---
 
 ## Giudizio Finale
