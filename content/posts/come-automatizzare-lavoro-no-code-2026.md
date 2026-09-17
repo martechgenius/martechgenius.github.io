@@ -29,13 +29,10 @@ Tra le varie piattaforme disponibili sul mercato, **Make.com** si distingue come
 
 A differenza di altri tool con strutture rigide, Make offre un editor visuale "drag-and-drop" che permette di costruire scenari complessi, gestire filtri e integrare logiche condizionali avanzate senza toccare una riga di codice.
 
-<div style="background-color: #f0f4f8; border-left: 4px solid #6b46c1; padding: 15px; margin: 20px 0;">
-  👉 <strong>Offerta Esclusiva MarTech Genius:</strong><br>
-  Puoi provare Make.com gratuitamente e riscattare <strong>1 mese GRATIS di piano Core con 10.000 crediti inclusi</strong> registrandoti tramite il nostro link dedicato:<br>
-  <a href="https://www.make.com/en/register?pc=martechgenius" target="_blank" rel="nofollow sponsored" style="color: #6b46c1; font-weight: bold;">
-    👉 Attiva qui 1 Mese Gratis di Make.com Core + 10.000 Crediti
-  </a>
-</div>
+> 🎁 **Offerta Esclusiva MarTech Genius:**  
+> Prova Make.com gratuitamente e riscatta **1 mese GRATIS di piano Core con 10.000 crediti inclusi**:  
+>  
+> 👉 **[Attiva qui 1 Mese Gratis di Make.com Core + 10.000 Crediti](https://www.make.com/en/register?pc=martechgenius)**
 
 ---
 
@@ -58,13 +55,7 @@ Ecco tre workflow ad alto impatto che puoi creare in meno di 15 minuti su Make:
 
 Costruire un sistema automatizzato richiede un piccolo investimento iniziale in termini di configurazione, ma garantisce un ritorno sull'investimento straordinario in termini di produttività e serenità operativa.
 
- non dimenticare di sfruttare l'offerta riservata ai lettori per testare le funzionalità avanzate:
+Non dimenticare di sfruttare l'offerta riservata ai lettori per testare le funzionalità avanzate:
 
-<div style="background-color: #f8f9fa; border-top: 2px solid #6b46c1; padding: 20px; margin-top: 40px; text-align: center; font-size: 0.9em; color: #4a5568;">
-  <p style="margin-bottom: 8px;">
-    💡 <strong>Offerta per i lettori:</strong> Prova <a href="https://www.make.com/en/register?pc=martechgenius" target="_blank" rel="nofollow sponsored" style="color: #6b46c1; font-weight: bold;">Make.com con 1 mese GRATIS di piano Core e 10.000 crediti</a>.
-  </p>
-  <p style="margin: 0; font-size: 0.85em; opacity: 0.8;">
-    <em>Disclaimer: MarTech Genius partecipa al programma affiliati di Make. Se ti registri tramite i nostri link, potremmo ricevere una commissione senza alcun costo aggiuntivo per te.</em>
-  </p>
-</div>
+> 💡 **Offerta per i lettori:** Prova **[Make.com con 1 mese GRATIS di piano Core e 10.000 crediti](https://www.make.com/en/register?pc=martechgenius)**.  
+> *Disclaimer: MarTech Genius partecipa al programma affiliati di Make. Se ti registri tramite i nostri link, potremmo ricevere una commissione senza alcun costo aggiuntivo per te.*
